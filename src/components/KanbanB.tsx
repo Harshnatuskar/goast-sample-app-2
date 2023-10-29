@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { Column, Id } from "../types";
-import ColContainer from "./ColContainer";
-
+import { Column, Id } from "../types"; 
 function Kanban() {
   const [columns,setColumns] = useState<Column[]>([])
 
